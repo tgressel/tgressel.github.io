@@ -1,0 +1,52 @@
+body {
+  font-family: system-ui;
+  background-color: #FBF4D5;
+  color: black;
+  text-align: center;
+}
+p {
+  font-size: 20px;
+}
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 5ch;
+}
+.photo-item{
+  border-right: solid black 2px;
+  border-left: solid black 2px;
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+  padding-top: 10px;
+}
+
+.img {
+  align: center;
+  margin-top: 5px;
+  cell-padding: 10px;
+}
+
+.book-grid{
+  display: inline-grid;
+  padding: 10px;
+  font-size: 20px;
+   padding: 1em;
+  grid-column-gap: 500px;
+  border-radius: 5px;
+  border-color: black;
+  background-color: white;
+  box-shadow: 3px 4px;
+  margin: 1.5em;
+  max-width: 700px;
+}
+.box {
+  padding: 1em;
+  border-radius: 5px;
+  border-color: black;
+  background-color: white;
+  box-shadow: 3px 4px;
+  margin: 1.5em auto;
+  max-width: 700px;
+}
+
+
