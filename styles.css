@@ -52,6 +52,7 @@ img {
   margin-top: 5px;
   cell-padding: 10px;
   margin-right: 10px;
+  max-width: 100%;
 }
 bio{
   margin-left: 1em;
