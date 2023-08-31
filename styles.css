@@ -1,65 +1,36 @@
 body {
   font-family: system-ui;
-  background-color: #fbe498;
+  background-color: #FBF4D5;
   color: black;
   text-align: center;
 }
 
-p {
-  font-size: 16px;
-  padding-left: 10px;
-  text-align: justify;
-}
-
-h1{
-    font-size: 30px;
-  }
-
-h2 {
-  text-align: top;
-  font-size: 40px;
-}
-
-h3{
- text-align: justify;
-}
-h4{
-  font-size: 26px;
-  margin-bottom: 0px;
-  margin-top; 0px;
-  paddding-top; 0px;
-}
-  
-.mission{
+.orange{
   max-width: 700px;
   border-radius: 5px;
   border-color: black;
   border-width: 1px;
   align: center;
   margin: 1.5em auto;
-  background: #d39669;
+  background: #e88138;
   padding: 1em;
   box-shadow: 3px 4px;
 }
-.mission-details{
-   margin: 1.5em auto;
-  width: 75%;
+
+.yellow {
+  max-width: 700px;
+  border-radius: 5px;
+  border-color: black;
+  border-width: 1px;
+  align: center; 
+  margin: 1.5em auto;
+  background: #e8c238;
+  padding: 1em;
+  box-shadow: 3px 4px;
+  font-size: 20px;
 }
 
-img {
-  align: center;
-  margin-top: 5px;
-  cell-padding: 10px;
-  margin-right: 10px;
-  max-width: 100%;
-}
-bio{
-  margin-left: 1em;
-  font-size: 10px;
-  text-size: 10px;
-}
-
-.book-grid{
+.book{
   display: inline-grid;
   padding: 10px 20px;
   font-size: 20px;
@@ -67,58 +38,29 @@ bio{
   grid-column-gap: 500px;
   border-radius: 5px;
   border-color: black;
-  background-color: #e8c238;
+  background-color: #c2c86f;
   box-shadow: 3px 4px;
   margin: 1.5em;
   max-width: 700px;
 }
-.box {
-  padding: 1em;
-  border-radius: 5px;
-  border-color: black;
-  border-radius: 5px;
-  background-color: #83a55e;
-  box-shadow: 3px 4px;
-  margin: 1.5em auto;
-  max-width: 700px;
-  font-size: 20px;
-  
-}
-
-.grid-container {
-  max-width: 700px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto, 1fr);
-  grid-gap: 20px; 
-  margin: 1.5em auto;
-  
- 
-}
-
-.grid-item {
-  display: flex;
-  flex-direction: row; 
-  border: 1px solid #ccc; 
-  box-shadow: 4px 4px;
-  background: #c2c86f;
-  padding: 10px; 
-border-radius: 5px;
-}
-
 .photo {
-  width: 150px;
-}
+background: #e88138;
+Padding: .5em;
 
-.bio {
-  flex: 1; 
-  padding-left: 10px; 
+Cell-padding: 10px;
+Margin: 0.5em;
+box-shadow: 3px 4px;
 }
-
+.left {
+    float: left;
+    margin-right: 1.5em;
+}
 img {
-  max-width: 100%; 
+  align: center;
+  margin-top: 5px;
+  cell-padding: 10px;
+  Margin: 1em;
 }
-p.footer{
-  margin-top: 50px;
-  align:center;
-}
+.bio-text{
+Padding: 1em;
+Text-align: justify;
